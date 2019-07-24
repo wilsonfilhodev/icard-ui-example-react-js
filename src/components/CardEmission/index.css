@@ -1,0 +1,49 @@
+.card {
+  min-width: 275px;
+}
+
+.bullet {
+  display: inline-block;
+  margin: 0 2px;
+  transform: scale(0.8);
+}
+
+.title {
+  font-size: 14px;
+}
+
+.pos {
+  margin-bottom: 12px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-field {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  width: 200px;
+}
+
+.paper {
+  position: absolute;
+  width: 300px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px 1px dimgrey;
+  padding: 10px;
+  outline: none;
+}
+
+.fields-card {
+  margin: 0;
+}
+
+.title-modal {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
