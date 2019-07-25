@@ -1,3 +1,8 @@
 .card {
   min-width: 275px;
 }
+
+.fields-card {
+  display: flex;
+  margin: 5px 10px;
+}

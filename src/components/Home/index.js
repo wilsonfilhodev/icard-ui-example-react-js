@@ -9,7 +9,7 @@ import "./index.css";
 import CardEmission from "../CardEmission";
 import AuthorizeTransaction from "../AuthorizeTransaction";
 
-function Header(props) {
+function Home(props) {
   return (
     <Typography component="div" style={{ padding: 8 * 3 }}>
       {props.children}
@@ -17,7 +17,7 @@ function Header(props) {
   );
 }
 
-Header.propTypes = {
+Home.propTypes = {
   children: PropTypes.node.isRequired
 };
 
@@ -32,19 +32,19 @@ export default function SimpleTabs() {
     <div className="container">
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange}>
-          <Tab label="Emitir Cartão" />
-          <Tab label="Fazer Venda" />
+          <Tab label="Emissão de Cartão" />
+          <Tab label="Autorização de Venda" />
         </Tabs>
       </AppBar>
       {value === 0 && (
-        <Header>
+        <Home>
           <CardEmission />
-        </Header>
+        </Home>
       )}
       {value === 1 && (
-        <Header>
+        <Home>
           <AuthorizeTransaction />
-        </Header>
+        </Home>
       )}
     </div>
   );
