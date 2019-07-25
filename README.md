@@ -21,7 +21,7 @@
 
 **Warning**
 
-> Verify that you are running at least node 8.9.x and npm 5.x.x by running node -v and npm -v in a terminal/console window. Older versions produce errors, but newer versions are fine.
+> Verify that you are running at least node 8+ and npm 5+ by running node -v and npm -v in a terminal/console window. Older versions produce errors, but newer versions are fine.
 
 1. Go to project folder and install dependencies.
 
