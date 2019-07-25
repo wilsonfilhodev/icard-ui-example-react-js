@@ -7,6 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import "./index.css";
 
 import CardEmission from "../CardEmission";
+import AuthorizeTransaction from "../AuthorizeTransaction";
 
 function Header(props) {
   return (
@@ -32,7 +33,7 @@ export default function SimpleTabs() {
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange}>
           <Tab label="Emitir Cartão" />
-          <Tab label="Fazer Transação" />
+          <Tab label="Fazer Venda" />
         </Tabs>
       </AppBar>
       {value === 0 && (
@@ -40,7 +41,11 @@ export default function SimpleTabs() {
           <CardEmission />
         </Header>
       )}
-      {value === 1 && <Header>Fazer transação</Header>}
+      {value === 1 && (
+        <Header>
+          <AuthorizeTransaction />
+        </Header>
+      )}
     </div>
   );
 }
