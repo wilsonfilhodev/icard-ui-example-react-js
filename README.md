@@ -5,7 +5,7 @@
 
   <h3 align="center">iCARD UI</h3>
 
-  <p align="center">This project is a simple web interface created with React.js for api iCard - https://github.com/wilsonfilhodev/icard-example
+  <p align="center">This project is a simple web interface created with React.js and Material-UI for my api iCard - https://github.com/wilsonfilhodev/icard-example
   </p>
 </p>
 
