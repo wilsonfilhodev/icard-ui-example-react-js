@@ -5,10 +5,10 @@
 
   <h3 align="center">iCARD UI</h3>
 
-  <p align="center">
-This project is a simple web interface created with React.js for api [iCard](https://github.com/wilsonfilhodev/icard-example)
+  <p align="center">This project is a simple web interface created with React.js for api iCard - https://github.com/wilsonfilhodev/icard-example
   </p>
 </p>
+
 
 ## Contents
 
@@ -52,4 +52,4 @@ http://localhost:3000/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
